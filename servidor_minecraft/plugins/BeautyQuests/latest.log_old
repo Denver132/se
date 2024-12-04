@@ -1,0 +1,109 @@
+[23:45:03] ---- BEAUTYQUESTS LOGGER - OPENED Wed Nov 20 23:45:03 UTC 2024 ----
+[23:45:04] [DEBUG] Loading data file, last time edited : Wed Nov 20 23:45:01 UTC 2024
+[23:45:04] [DEBUG] Initializing default stage types.
+[23:45:04] [DEBUG] Stage registered (Mobs, 0)
+[23:45:04] [DEBUG] Stage registered (Mine, 1)
+[23:45:04] [DEBUG] Stage registered (Place, 2)
+[23:45:04] [DEBUG] Stage registered (Chat, 3)
+[23:45:04] [DEBUG] Stage registered (InteractBlock, 4)
+[23:45:04] [DEBUG] Stage registered (InteractLocation, 5)
+[23:45:04] [DEBUG] Stage registered (Fish, 6)
+[23:45:04] [DEBUG] Stage registered (Melt, 7)
+[23:45:04] [DEBUG] Stage registered (Enchant, 8)
+[23:45:04] [DEBUG] Stage registered (Craft, 9)
+[23:45:04] [DEBUG] Stage registered (Bucket, 10)
+[23:45:04] [DEBUG] Stage registered (StageLocation, 11)
+[23:45:04] [DEBUG] Stage registered (PlayTime, 12)
+[23:45:04] [DEBUG] Stage registered (Breed, 13)
+[23:45:04] [DEBUG] Stage registered (Tame, 14)
+[23:45:04] [DEBUG] Stage registered (Death, 15)
+[23:45:04] [DEBUG] Stage registered (DealDamage, 16)
+[23:45:04] [DEBUG] Stage registered (EatDrink, 17)
+[23:45:04] [DEBUG] Initializing default quest options.
+[23:45:04] [DEBUG] Quest option registered (id: pool)
+[23:45:04] [DEBUG] Quest option registered (id: name)
+[23:45:04] [DEBUG] Quest option registered (id: description)
+[23:45:04] [DEBUG] Quest option registered (id: customItem)
+[23:45:04] [DEBUG] Quest option registered (id: confirmMessage)
+[23:45:04] [DEBUG] Quest option registered (id: bypassLimit)
+[23:45:04] [DEBUG] Quest option registered (id: startableFromGUI)
+[23:45:04] [DEBUG] Quest option registered (id: failOnDeath)
+[23:45:04] [DEBUG] Quest option registered (id: cancellable)
+[23:45:04] [DEBUG] Quest option registered (id: cancelActions)
+[23:45:04] [DEBUG] Quest option registered (id: scoreboard)
+[23:45:04] [DEBUG] Quest option registered (id: hideNoRequirements)
+[23:45:04] [DEBUG] Quest option registered (id: auto)
+[23:45:04] [DEBUG] Quest option registered (id: repeatable)
+[23:45:04] [DEBUG] Quest option registered (id: timer)
+[23:45:04] [DEBUG] Quest option registered (id: visibility)
+[23:45:04] [DEBUG] Quest option registered (id: endSound)
+[23:45:04] [DEBUG] Quest option registered (id: firework)
+[23:45:04] [DEBUG] Quest option registered (id: requirements)
+[23:45:04] [DEBUG] Quest option registered (id: startRewards)
+[23:45:04] [DEBUG] Quest option registered (id: startMessage)
+[23:45:04] [DEBUG] Quest option registered (id: endRewards)
+[23:45:04] [DEBUG] Quest option registered (id: endMsg)
+[23:45:04] [DEBUG] Initializing default item comparisons.
+[23:45:04] [DEBUG] Item comparison registered (id: bukkit)
+[23:45:04] [DEBUG] Item comparison registered (id: customBukkit)
+[23:45:04] [DEBUG] Item comparison registered (id: material)
+[23:45:04] [DEBUG] Item comparison registered (id: name)
+[23:45:04] [DEBUG] Item comparison registered (id: lore)
+[23:45:04] [DEBUG] Item comparison registered (id: enchants)
+[23:45:04] [DEBUG] Item comparison registered (id: repair)
+[23:45:04] [DEBUG] Initializing default rewards.
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: commandReward, class: fr.skytasul.quests.rewards.CommandReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: itemReward, class: fr.skytasul.quests.rewards.ItemReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: removeItemsReward, class: fr.skytasul.quests.rewards.RemoveItemsReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: textReward, class: fr.skytasul.quests.rewards.MessageReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: tpReward, class: fr.skytasul.quests.rewards.TeleportationReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: expReward, class: fr.skytasul.quests.rewards.XPReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: checkpointReward, class: fr.skytasul.quests.rewards.CheckpointReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: questStopReward, class: fr.skytasul.quests.rewards.QuestStopReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: requirementDependentReward, class: fr.skytasul.quests.rewards.RequirementDependentReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: randomReward, class: fr.skytasul.quests.rewards.RandomReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: wait, class: fr.skytasul.quests.rewards.WaitReward)
+[23:45:04] [DEBUG] Quest object registered in registry rewards (id: titleReward, class: fr.skytasul.quests.rewards.TitleReward)
+[23:45:04] [DEBUG] Initializing default requirements.
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: logicalOr, class: fr.skytasul.quests.requirements.logical.LogicalOrRequirement)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: questRequired, class: fr.skytasul.quests.requirements.QuestRequirement)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: levelRequired, class: fr.skytasul.quests.requirements.LevelRequirement)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: permissionRequired, class: fr.skytasul.quests.requirements.PermissionsRequirement)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: scoreboardRequired, class: fr.skytasul.quests.requirements.ScoreboardRequirement)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: equipmentRequired, class: fr.skytasul.quests.requirements.EquipmentRequirement)
+[23:45:04] [DEBUG] Initializing default stage options.
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-MOBS (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-MINE (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-PLACE_BLOCKS (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-FISH (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-MELT (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-ENCHANT (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-CRAFT (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-BUCKET (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-PLAY_TIME (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-BREED (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-TAME (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-DEAL_DAMAGE (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Quest object registered in registry stage-options-EAT_DRINK (id: progressbar, class: fr.skytasul.quests.stages.options.StageOptionProgressBar)
+[23:45:04] [DEBUG] Initializing default miscellenaeous.
+[23:45:04] [DEBUG] Mob factory registered (id: bukkitEntity)
+[23:45:04] [DEBUG] Bossbars manager has been registered: fr.skytasul.quests.utils.compatibility.BQBossBarImplementation
+[23:45:04] [DEBUG] Brigadier registered!
+[23:45:04] [DEBUG] Hooked into [WorldGuard] v7.0.9+5934e49
+[23:45:04] [DEBUG] Now using WorldGuard entry API.
+[23:45:04] [DEBUG] Stage registered (Find, 18)
+[23:45:04] [DEBUG] Quest object registered in registry requirements (id: regionRequired, class: fr.skytasul.quests.integrations.worldguard.RegionRequirement)
+[23:45:04] [DEBUG] Started bStats metrics
+[23:45:04] [DEBUG] Starting Spigot updater
+[23:45:05] [DEBUG] 0 accounts loaded and 1 identifiers.
+[23:45:05] [DEBUG] Registered 5 lines in scoreboard
+[23:45:05] [DEBUG] Loading player DenverKxng...
+[23:45:05] [DEBUG] Loading account #1. Last file edition: Wed Nov 20 23:45:01 UTC 2024
+[23:45:05] [DEBUG] Completed load of DenverKxng (92bacc08-07e1-34b6-901c-37eb5a89026e (#1)) datas within 3 ms (1 quests, 0 pools) | Loaded from file from index
+[23:45:14] [DEBUG] DenverKxng left the server
+[23:45:14] [DEBUG] Unloading player DenverKxng... (1 quests, 0 pools)
+[23:45:21] [DEBUG] Saving 0 loaded accounts and 1 identifiers.
+[23:45:21] [DEBUG] Saved datas (0.0s)!
+[23:45:21] [DEBUG] Unregistered from WorldGuard entry API.
+[23:45:21] Logger was open during a few seconds
+[23:45:21] ---- BEAUTYQUESTS LOGGER - CLOSED Wed Nov 20 23:45:21 UTC 2024 ----
